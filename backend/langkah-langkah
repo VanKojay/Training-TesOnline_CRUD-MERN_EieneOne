@@ -1,0 +1,22 @@
+Langkah-langkah :
+1. npm init -y
+2. npm i express mysql2 sequelize cors
+3. file package.json tambahin diatas "main" > "type" : "module",
+
+// liat yutub aja
+
+
+
+
+4. buat file index.js
+5. ikutin isi index
+6. cek "nodemon index"
+7. buat folder config > Database.js
+8. ikutin isi file config.js
+9. buat database baru sesuai dengan nama di config.js
+10. buat folder models > UserModels.js
+11. ikutin isi file usermodel.js
+12. buat folder controllers > UserControllers.js
+13. ikutin isi file usercontroller.js
+14. buat folder routes > UserRoute.js
+15. ikutin isi file userroute.js
