@@ -1,0 +1,10 @@
+jangan buat dulu folder frontend
+masuk ke terminal baru/powershell baru
+npx create-react-app frontend
+masuk folder frontend
+npm i react-router-dom axios bulma
+cek dengan npm start
+cleanup/hapus file > app.css, app.test.js, index.css, logo.svg, reportwebvitals.js, setuptes.js
+clean di file index.js > index.css, webvital, method web vital
+
+// nonton yutub
