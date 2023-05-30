@@ -1,0 +1,33 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/1
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Tes2",
+    "email": "tes2@gmail.com",
+    "age": 25,
+    "birthdate": "1995-10-29",
+    "account": false,
+    "gender": "Female"
+}
+
+###
+PATCH http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "name": "Nyoba1",
+    "email": "nyoba1@gmail.com",
+    "age": 14,
+    "birthdate": "1995-11-21",
+    "account": false,
+    "gender": "Male"
+}
+
+###
+DELETE http://localhost:5000/users/1
